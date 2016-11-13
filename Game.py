@@ -1,15 +1,12 @@
 import kivy
-from kivy.properties import NumericProperty, ReferenceListProperty, BooleanProperty, ObjectProperty, ListProperty
+from kivy.properties import NumericProperty, ReferenceListProperty, ObjectProperty
 from kivy.uix.image import Image
 from kivy.vector import Vector
 from kivy.app import App
 from kivy.clock import Clock
 from kivy.uix.label import Label
-from kivy.config import Config
-from kivy.core.window import Window
 from kivy.uix.widget import Widget
 import random
-import sys
 
 
 class Background(Widget):
